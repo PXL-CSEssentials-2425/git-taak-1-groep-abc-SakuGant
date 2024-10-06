@@ -10,19 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Photos\Blauw.png" />
-    <None Remove="Photos\Geel.png" />
-    <None Remove="Photos\Groen.png" />
-    <None Remove="Photos\PXL.png" />
-    <None Remove="Photos\Rood.png" />
+    <None Remove="Blauw.png" />
+    <None Remove="Geel.png" />
+    <None Remove="Groen.png" />
+    <None Remove="PXL.png" />
+    <None Remove="Rood.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Photos\Blauw.png" />
-    <Resource Include="Photos\Geel.png" />
-    <Resource Include="Photos\Groen.png" />
-    <Resource Include="Photos\PXL.png" />
-    <Resource Include="Photos\Rood.png" />
+    <Resource Include="Blauw.png" />
+    <Resource Include="Geel.png" />
+    <Resource Include="Groen.png" />
+    <Resource Include="PXL.png" />
+    <Resource Include="Rood.png" />
   </ItemGroup>
 
 </Project>
