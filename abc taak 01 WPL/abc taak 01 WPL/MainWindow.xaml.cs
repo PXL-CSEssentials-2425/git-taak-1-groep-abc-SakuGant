@@ -20,5 +20,47 @@ namespace abc_taak_01_WPL
         {
             InitializeComponent();
         }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush(Colors.Red);
+        }
+
+        private void Rood_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFBDB8B8"));
+        }
+
+        private void Geel_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush(Colors.Yellow);
+        }
+
+        private void Geel_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+        }
+
+        private void Groen_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+        }
+
+        private void Groen_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush(Colors.Green);
+
+        }
+
+        private void Blauw_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush(Colors.Blue);
+
+        }
+
+        private void Blauw_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainWindow1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+        }
     }
 }
