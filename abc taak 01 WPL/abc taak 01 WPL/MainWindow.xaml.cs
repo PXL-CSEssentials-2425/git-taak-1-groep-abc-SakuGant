@@ -61,5 +61,25 @@ namespace abc_taak_01_WPL
         {
             MainWindow1.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
         }
+
+        private void Rood_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeBox.Text = "Rood: #FF0000";
+        }
+
+        private void Geel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeBox.Text = "Geel: #FFFF00";
+        }
+
+        private void Groen_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeBox.Text = "Groen: #008000";
+        }
+
+        private void Blauw_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeBox.Text = "Blauw: #0000FF";
+        }
     }
 }

@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="MainWindow1" Background="#FF978D8D">
-        <TextBlock x:Name="Kleurenpsychologie" HorizontalAlignment="Left" Margin="85,59,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="22" Width="155" FontSize="16"/>
+        <TextBlock x:Name="Kleurenpsychologie" HorizontalAlignment="Left" Margin="61,33,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="22" Width="155" FontSize="16"/>
         <Image Margin="657,48,54,304" Source="/Photos/PXL.png" Stretch="Fill" RenderTransformOrigin="1.595,-0.461"/>
         <Image Margin="667,13,10,307" Source="/PXL.png" Stretch="Fill"/>
-        <Image x:Name="Rood" Margin="152,101,488,235" Source="/Rood.png" Stretch="Fill" MouseEnter="Rood_MouseEnter" MouseLeave="Rood_MouseLeave"/>
-        <Image x:Name="Geel" Margin="369,101,274,235" Source="/Geel.png" Stretch="Fill" MouseEnter="Geel_MouseEnter" MouseLeave="Geel_MouseLeave"/>
-        <Image x:Name="Groen" Margin="152,229,488,107" Source="/Groen.png" Stretch="Fill" MouseEnter="Groen_MouseEnter" MouseLeave="Groen_MouseLeave"/>
-        <Image x:Name="Blauw" Margin="369,229,274,107" Source="/Blauw.png" Stretch="Fill" MouseEnter="Blauw_MouseEnter" MouseLeave="Blauw_MouseLeave"/>
+        <Image x:Name="Rood" Margin="128,75,512,261" Source="/Rood.png" Stretch="Fill" MouseEnter="Rood_MouseEnter" MouseLeave="Rood_MouseLeave" MouseLeftButtonDown="Rood_MouseLeftButtonDown"/>
+        <Image x:Name="Geel" Margin="345,75,298,261" Source="/Geel.png" Stretch="Fill" MouseEnter="Geel_MouseEnter" MouseLeave="Geel_MouseLeave" MouseLeftButtonDown="Geel_MouseLeftButtonDown"/>
+        <Image x:Name="Groen" Margin="128,203,512,133" Source="/Groen.png" Stretch="Fill" MouseEnter="Groen_MouseEnter" MouseLeave="Groen_MouseLeave" MouseLeftButtonDown="Groen_MouseLeftButtonDown"/>
+        <Image x:Name="Blauw" Margin="345,203,298,133" Source="/Blauw.png" Stretch="Fill" MouseEnter="Blauw_MouseEnter" MouseLeave="Blauw_MouseLeave" MouseLeftButtonDown="Blauw_MouseLeftButtonDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,337,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top" Width="101" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,370,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top" Width="101" FontSize="20"/>
+        <TextBox x:Name="kleurCodeBox" HorizontalAlignment="Left" Margin="168,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" RenderTransformOrigin="0.263,-0.465" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="informatieBox" HorizontalAlignment="Left" Margin="168,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" RenderTransformOrigin="0.263,-0.465" FontSize="20" IsEnabled="False"/>
 
 
     </Grid>
