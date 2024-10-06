@@ -65,21 +65,25 @@ namespace abc_taak_01_WPL
         private void Rood_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeBox.Text = "Rood: #FF0000";
+            informatieBox.Text = "Rood is de kleur van warmte";
         }
 
         private void Geel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeBox.Text = "Geel: #FFFF00";
+            informatieBox.Text = "Geel is de kleur van levenslust";
         }
 
         private void Groen_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeBox.Text = "Groen: #008000";
+            informatieBox.Text = "Groen is de kleur van genezing";
         }
 
         private void Blauw_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeBox.Text = "Blauw: #0000FF";
+            informatieBox.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }
