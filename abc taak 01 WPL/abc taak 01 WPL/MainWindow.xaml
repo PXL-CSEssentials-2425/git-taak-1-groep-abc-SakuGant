@@ -9,6 +9,10 @@
     <Grid x:Name="MainWindow1" Background="#FF978D8D">
         <TextBlock x:Name="Kleurenpsychologie" HorizontalAlignment="Left" Margin="85,59,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="22" Width="155" FontSize="16"/>
         <Image Margin="658,31,53,321" Source="/Photos/PXL.png" Stretch="Fill" RenderTransformOrigin="1.595,-0.461"/>
+        <Image x:Name="Geel" Margin="354,105,329,247" Source="/Photos/Geel.png" Stretch="Fill" MouseEnter="Geel_MouseEnter" MouseLeave="Geel_MouseLeave"/>
+        <Image x:Name="Groen" Margin="162,201,520,152" Source="/Photos/Groen.png" Stretch="Fill" MouseLeave="Groen_MouseLeave" MouseEnter="Groen_MouseEnter"/>
+        <Image x:Name="Blauw" Margin="354,201,329,152" Source="/Photos/Blauw.png" Stretch="Fill" MouseEnter="Blauw_MouseEnter" MouseLeave="Blauw_MouseLeave"/>
+        <Image x:Name="Rood" Margin="162,105,520,247" Source="/Photos/Rood.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Rood_MouseLeave"/>
 
 
     </Grid>
